@@ -12,7 +12,16 @@ public class Contract {
     private String c_date;
     private String c_campus;
     private String c_person;
+    private String c_upload;
     private String c_remark;
+
+    public String getC_upload() {
+        return c_upload;
+    }
+
+    public void setC_upload(String c_upload) {
+        this.c_upload = c_upload;
+    }
 
     public int getC_id() {
         return c_id;

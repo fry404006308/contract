@@ -28,8 +28,8 @@ public class ContractDao {
 
         dataSource=new ComboPooledDataSource();
         queryRunner=new QueryRunner(dataSource);
-        String sql="insert into contract values(null,?,?,?,?,?,?,?,?,?,?,?)";
-        int row = queryRunner.update(sql,contract.getC_name(),contract.getC_dtype(),contract.getC_type(),contract.getC_supplier(),contract.getC_price(),contract.getC_tprice(),contract.getC_count(),contract.getC_date(),contract.getC_campus(),contract.getC_person(),contract.getC_remark() );
+        String sql="insert into contract values(null,?,?,?,?,?,?,?,?,?,?,?,?)";
+        int row = queryRunner.update(sql,contract.getC_name(),contract.getC_dtype(),contract.getC_type(),contract.getC_supplier(),contract.getC_price(),contract.getC_tprice(),contract.getC_count(),contract.getC_date(),contract.getC_campus(),contract.getC_person(),"未上传",contract.getC_remark() );
         System.out.println("addTest: "+contract.getC_name()+contract.getC_dtype());
         dataSource.close();
          if (row>0){
@@ -118,10 +118,10 @@ public class ContractDao {
 
         dataSource=new ComboPooledDataSource();
         queryRunner=new QueryRunner(dataSource);
-        String sql="update contract set c_name=?,c_dtype=?,c_type=?,c_supplier=?,c_price=?,c_tprice=?,c_count=?,c_date=?,c_campus=?,c_person=?,c_remark=? where c_id=?";
+        String sql="update contract set c_name=?,c_dtype=?,c_type=?,c_supplier=?,c_price=?,c_tprice=?,c_count=?,c_date=?,c_campus=?,c_person=?,c_upload=?,c_remark=? where c_id=?";
         int row = queryRunner.update(sql,contract.getC_name(),contract.getC_dtype(),contract.getC_type(),
                 contract.getC_supplier(),contract.getC_price(),contract.getC_tprice(),contract.getC_count(),
-                contract.getC_date(),contract.getC_campus(),contract.getC_person(),contract.getC_remark(),contract.getC_id());
+                contract.getC_date(),contract.getC_campus(),contract.getC_person(),contract.getC_upload(),contract.getC_remark(),contract.getC_id());
         System.out.println("updateContract_dao_test: "+row+" "+contract.getC_id()+" "+contract.getC_name());
         dataSource.close();
         if (row>0){
