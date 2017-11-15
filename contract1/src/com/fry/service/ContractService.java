@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class ContractService {
     /**
-     * @method:addCategory 添加生鲜数据
+     * @method:addCategory 添加数据
      * @date: 2017/7/8
      * @params:[category]
      * @return: boolean
@@ -135,12 +135,12 @@ public class ContractService {
 ////    }
 //
 //
-//    public boolean updateCategory(Category category) throws SQLException {
-//        CategoryDao dao=new CategoryDao();
-//        boolean updateCategory = dao.updateCategory(category);
-//        return updateCategory;
-//    }
-//
+    public boolean updateContract(Contract contract) throws SQLException {
+        ContractDao dao=new ContractDao();
+        boolean updateContract = dao.updateContract(contract);
+        return updateContract;
+    }
+
     /**
      * @method:deleteCategory servcie删除信息数据
      * @date: 2017/7/10

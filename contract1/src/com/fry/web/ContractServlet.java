@@ -35,6 +35,7 @@ public class ContractServlet extends BaseServlet {
             Contract contract=new Contract();
             BeanUtils.populate(contract,parameterMap);
             ContractService categoryService=new ContractService();
+            System.out.println("servlet_addTest: "+contract.getC_name()+contract.getC_dtype());
             boolean b = categoryService.addContract(contract);
             if (b){
                 //添加成功
@@ -74,6 +75,7 @@ public class ContractServlet extends BaseServlet {
             }
             ContractService service=new ContractService();
             Page page = service.findPageContract(currentPage, currentCount);
+
             if (page!=null) {
                 request.setAttribute("page",page);
                 //System.out.println(page.getList().get(1).toString());
@@ -86,43 +88,43 @@ public class ContractServlet extends BaseServlet {
         }
     }
 
-//    /**
-//     * @method:updateCategory 修改信息
-//     * @date: 2017/7/10
-//     * @params:[request, response]
-//     * @return: void
-//     */
-//    public void updateCategory(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        try {
-//            // 1 调用service中的查询方法
-//            Map<String, String[]> parameterMap = request.getParameterMap();
-//            Category category=new Category();
-//            BeanUtils.populate(category,parameterMap);
-//            CategoryService service=new CategoryService();
-//            boolean updateCategory = service.updateCategory(category);
-//
-//            if (updateCategory){
-//                // 修改成功后重定向到生鲜列表界面
-//                response.sendRedirect(request.getContextPath()+"/category?method=getCategoryList&currentPage=1&currentCount=10");
-//
-//            }else {
-//                // 失败了直接提示
-//                response.setContentType("text/html;charset=utf-8");
-//                response.getWriter().write("修改失败");
-//            }
-//
-//
-//        } catch (IllegalAccessException e) {
-//            e.printStackTrace();
-//        } catch (InvocationTargetException e) {
-//            e.printStackTrace();
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//
-//
-//    }
-//
+    /**
+     * @method:updateContract 修改信息
+     * @date: 2017/11/10
+     * @params:[request, response]
+     * @return: void
+     */
+    public void updateContract(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            // 1 调用service中的查询方法
+            Map<String, String[]> parameterMap = request.getParameterMap();
+            Contract contract=new Contract();
+            BeanUtils.populate(contract,parameterMap);
+            ContractService service=new ContractService();
+            boolean updateContract = service.updateContract(contract);
+
+            if (updateContract){
+                // 修改成功后重定向到列表界面
+                response.sendRedirect(request.getContextPath()+"/contract?method=getContractList&currentPage=1&currentCount=10");
+
+            }else {
+                // 失败了直接提示
+                response.setContentType("text/html;charset=utf-8");
+                response.getWriter().write("修改失败");
+            }
+
+
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
     /**
      * @method:deleteCategory 删除分类
      * @date: 2017/7/10

@@ -43,14 +43,14 @@
                         <div class="uinArea" id="uinArea">
                             <label class="input-tips" for="u">帐号：</label>
                             <div class="inputOuter" id="uArea">
-                                <input type="text" id="u" name="name" value="${cookie.name.value}" class="inputstyle"/>
+                                <input type="text" id="u" name="u_name" value="${cookie.name.value}" class="inputstyle"/>
                             </div>
                         </div>
                         <div class="pwdArea" id="pwdArea">
                             <label class="input-tips" for="p">密码：</label>
                             <div class="inputOuter" id="pArea">
 
-                                <input type="password" id="p" name="password" value="${cookie.password.value}" class="inputstyle"/>
+                                <input type="password" id="p" name="u_password" value="${cookie.password.value}" class="inputstyle"/>
                             </div>
                         </div>
 
@@ -81,26 +81,26 @@
                     <div id="userCue" class="cue">快速注册请注意格式</div>
                     <li><label for="user" class="input-tips2">用户名：</label>
                         <div class="inputOuter2">
-                            <input type="text" id="user" name="name" maxlength="16"
+                            <input type="text" id="user" name="u_name" maxlength="16"
                                    class="inputstyle2"/>
                         </div>
                     </li>
                     <li><label for="passwd" class="input-tips2">密码：</label>
                         <div class="inputOuter2">
-                            <input type="password" id="passwd" name="password" maxlength="16"
+                            <input type="password" id="passwd" name="u_password" maxlength="16"
                                    class="inputstyle2"/>
                         </div>
                     </li>
                     <li><label for="passwd2" class="input-tips2">确认密码：</label>
                         <div class="inputOuter2">
-                            <input type="password" id="passwd2" name="password2" maxlength="16"
+                            <input type="password" id="passwd2" name="u_password2" maxlength="16"
                                    class="inputstyle2"/>
                         </div>
                     </li>
 
                     <li><label for="email" class="input-tips2">邮箱：</label>
                         <div class="inputOuter2">
-                            <input type="email" id="email" name="email" class="inputstyle2"/>
+                            <input type="email" id="email" name="u_email" class="inputstyle2"/>
                         </div>
                     </li>
                     <li>

@@ -34,8 +34,8 @@ public class UserServlet extends BaseServlet {
 //    }
 
     public void login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String name = request.getParameter("name");
-        String password = request.getParameter("password");
+        String name = request.getParameter("u_name");
+        String password = request.getParameter("u_password");
 
         UserService userService=new UserService();
         User user=null;

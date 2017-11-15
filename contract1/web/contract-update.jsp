@@ -57,14 +57,23 @@
                 </div>
                 <!-- 自定义内容 -->
                 <div class="panel panel-default">
-                    <div class="panel-heading">新增合同种类</div>
+                    <div class="panel-heading">修改合同种类</div>
                     <div class="panel-body">
                         <form action="contract" method="post" class="form-horizontal" role="form">
                             <div class="form-group">
-                                <input type="hidden" name="method" value="addContract">
+                                <input type="hidden" name="method" value="updateContract">
+                                <label class="col-sm-2 control-label">编号</label>
+                                <div class="col-sm-5">
+                                    <input type="text" name="c_id" value="${param.c_id}" readonly="readonly"  class="form-control" placeholder="合同系统编号" >
+                                </div>
+                                <div class="col-sm-5">
+                                    <p class="form-control-static text-danger">编号不能修改</p>
+                                </div>
+                            </div>
+                            <div class="form-group">
                                 <label class="col-sm-2 control-label">名称</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_name" class="form-control" placeholder="合同名称">
+                                    <input type="text" name="c_name" value="${param.c_name}" class="form-control" placeholder="合同名称">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">名称不能为空</p>
@@ -73,23 +82,24 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">型号</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_dtype" class="form-control" placeholder="型号">
+                                    <input type="text" name="c_dtype" value="${param.c_dtype}" class="form-control" placeholder="型号">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">型号不能为空</p>
                                 </div>
                             </div>
+
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">类型</label>
                                 <div class="col-sm-5">
                                     <label class="radio-inline">
-                                        <input type="radio" name="c_type"  value="未知">未知
+                                        <input <c:if test="${param.c_type eq '未知'}">checked="checked"</c:if>  type="radio" name="c_type" value="未知">未知
                                     </label>
                                     <label class="radio-inline">
-                                        <input type="radio" name="c_type" value="软件">软件
+                                        <input <c:if test="${param.c_type eq '软件'}">checked="checked"</c:if> type="radio" name="c_type" value="软件">软件
                                     </label>
                                     <label class="radio-inline">
-                                        <input type="radio" name="c_type" value="硬件">硬件
+                                        <input <c:if test="${param.c_type eq '硬件'}">checked="checked"</c:if> type="radio" name="c_type" value="硬件">硬件
                                     </label>
                                 </div>
                                 <div class="col-sm-5">
@@ -99,7 +109,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">供应商</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_supplier" class="form-control" placeholder="供应商">
+                                    <input type="text" name="c_supplier" value="${param.c_supplier}" class="form-control" placeholder="供应商">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">供应商不能为空</p>
@@ -108,7 +118,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">单价</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_price" class="form-control" placeholder="单价">
+                                    <input type="text" name="c_price" value="${param.c_price}"  class="form-control" placeholder="单价">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">单价不能为空</p>
@@ -117,7 +127,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">总价</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_tprice" class="form-control" placeholder="总价">
+                                    <input type="text" name="c_tprice" value="${param.c_tprice}" class="form-control" placeholder="总价">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">总价不能为空</p>
@@ -126,7 +136,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">数量</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_count" class="form-control" placeholder="数量">
+                                    <input type="text" name="c_count" value="${param.c_count}" class="form-control" placeholder="数量">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">数量不能为空</p>
@@ -135,7 +145,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">购买日期</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_date" class="form-control" placeholder="购买日期">
+                                    <input type="text" name="c_date" value="${param.c_date}" class="form-control" placeholder="购买日期">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">购买日期不能为空</p>
@@ -144,7 +154,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">校区</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_campus" class="form-control" placeholder="中北/闵行">
+                                    <input type="text" name="c_campus" value="${param.c_campus}" class="form-control" placeholder="中北/闵行">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">校区不能为空</p>
@@ -153,7 +163,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">购买人</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_person" class="form-control" placeholder="购买人">
+                                    <input type="text" name="c_person" value="${param.c_person}" class="form-control" placeholder="购买人">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">购买人不能为空</p>
@@ -162,12 +172,12 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">备注</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_remark" class="form-control" placeholder="备注">
+                                    <input type="text" name="c_remark" value="${param.c_remark}" class="form-control" placeholder="备注">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-primary">提交</button>
+                                    <button type="submit" class="btn btn-primary">修改</button>
                                 </div>
                             </div>
                         </form>
