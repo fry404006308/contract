@@ -179,6 +179,7 @@ public class ContractServlet extends BaseServlet {
 
         //得到上传文件的保存目录，将上传的文件存放于WEB-INF目录下，不允许外界直接访问，保证上传文件的安全
         String savePath = this.getServletContext().getRealPath("/WEB-INF/upload");
+        System.out.println(savePath);
         File file = new File(savePath);
         //判断上传文件的保存目录是否存在
         if (!file.exists() && !file.isDirectory()) {
@@ -188,6 +189,7 @@ public class ContractServlet extends BaseServlet {
         }
         //消息提示
         String message = "";
+        System.out.println("aaa");
         try{
             //使用Apache文件上传组件处理文件上传步骤：
             //1、创建一个DiskFileItemFactory工厂
@@ -197,13 +199,17 @@ public class ContractServlet extends BaseServlet {
             //解决上传文件名的中文乱码
             upload.setHeaderEncoding("UTF-8");
             //3、判断提交上来的数据是否是上传表单的数据
-            if(!ServletFileUpload.isMultipartContent(request)){
-                //按照传统方式获取数据
-                return;
-            }
+//            if(!ServletFileUpload.isMultipartContent(request)){
+//                //程序直接从这里出去了
+//                System.out.println("bbb");
+//                //按照传统方式获取数据
+//                return;
+//            }
             //4、使用ServletFileUpload解析器解析上传数据，解析结果返回的是一个List<FileItem>集合，每一个FileItem对应一个Form表单的输入项
             List<FileItem> list = upload.parseRequest(request);
+            System.out.println(list.size());
             for(FileItem item : list){
+                System.out.println("bbb");
                 //如果fileitem中封装的是普通输入项的数据
                 if(item.isFormField()){
                     String name = item.getFieldName();
@@ -250,8 +256,9 @@ public class ContractServlet extends BaseServlet {
             e.printStackTrace();
 
         }
+        System.out.println("upload:");
         request.setAttribute("message",message);
-        request.getRequestDispatcher("/message.jsp").forward(request, response);
+        request.getRequestDispatcher("/ok.jsp").forward(request, response);
 
 
     }
