@@ -11,7 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  okokokokokokokokokkoko!!!!!!!!!!!!
-  ${message};
+  ${message}
   </body>
 </html>

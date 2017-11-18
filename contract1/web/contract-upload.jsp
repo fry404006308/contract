@@ -53,9 +53,9 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">上传合同</div>
                     <div class="panel-body">
-                        <form action="${pageContext.request.contextPath}/contract"  method="post" class="form-horizontal" role="form">
+                        <form action="${pageContext.request.contextPath}/uploadContract?c_id=${param.c_id}"  method="post" enctype="multipart/form-data" class="form-horizontal" role="form">
                             <div class="form-group">
-                                <input type="hidden" name="method" value="uploadContract">
+                                <!--input type="hidden" name="method" value="uploadContract"-->
                                 <label class="col-sm-2 control-label">编号</label>
                                 <div class="col-sm-5">
                                     <input type="text" name="c_id" value="${param.c_id}" readonly="readonly"  class="form-control" placeholder="合同系统编号" >
