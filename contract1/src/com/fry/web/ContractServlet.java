@@ -34,9 +34,9 @@ public class ContractServlet extends BaseServlet {
             Map<String, String[]> parameterMap = request.getParameterMap();
             Contract contract=new Contract();
             BeanUtils.populate(contract,parameterMap);
-            ContractService categoryService=new ContractService();
+            ContractService ContractService=new ContractService();
             System.out.println("servlet_addTest: "+contract.getC_name()+contract.getC_dtype());
-            boolean b = categoryService.addContract(contract);
+            boolean b = ContractService.addContract(contract);
             if (b){
                 //添加成功
                response.setStatus(201);
