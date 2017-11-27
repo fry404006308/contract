@@ -56,8 +56,8 @@ public class ContractDao {
         //这里我是把数据库里面的东西映射到bean里面，两者的名字应该是一模一样，也就是数据库里面的名字的bean里面的应该是一模一样
         List<Contract> contractList = queryRunner.query(sql, new BeanListHandler<Contract>(Contract.class),startPosition,currentCount);
         //System.out.println(contractList.get(0).getName()+contractList.get(0).getCampus()+"contractdao");
-        //System.out.println(contractList.size()+"contractdao");
-        //System.out.println(startPosition+" "+currentCount);
+        System.out.println(contractList.size()+"contractdao");
+        System.out.println(startPosition+" "+currentCount);
         dataSource.close();
         return contractList;
     }
@@ -122,7 +122,7 @@ public class ContractDao {
         int row = queryRunner.update(sql,contract.getC_name(),contract.getC_dtype(),contract.getC_type(),
                 contract.getC_supplier(),contract.getC_price(),contract.getC_tprice(),contract.getC_count(),
                 contract.getC_date(),contract.getC_campus(),contract.getC_person(),contract.getC_upload(),contract.getC_remark(),contract.getC_id());
-        //System.out.println("updateContract_dao_test: "+row+" "+contract.getC_id()+" "+contract.getC_name());
+        System.out.println("updateContract_dao_test: "+row+" "+contract.getC_id()+" "+contract.getC_name());
         dataSource.close();
         if (row>0){
             return true;
@@ -142,7 +142,7 @@ public class ContractDao {
         queryRunner=new QueryRunner(dataSource);
         String sql="delete from contract where c_id=?";
         int row = queryRunner.update(sql,contract.getC_id());
-        //System.out.println("deleteContract: "+row+contract.getC_id());
+        System.out.println("deleteContract: "+row+contract.getC_id());
         dataSource.close();
         return row>0?true:false;
     }

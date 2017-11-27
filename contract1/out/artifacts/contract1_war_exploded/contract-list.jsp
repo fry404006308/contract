@@ -86,7 +86,7 @@
 									<td>
 										<%--<a href="">详情</a>--%>
 										<a href="${pageContext.request.contextPath}/contract-upload.jsp?c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">上传</a>
-										<a href="${pageContext.request.contextPath}/downloadContract?c_id=${contract.c_id}&filename=${contract.c_name}">下载</a>
+										<a href="${pageContext.request.contextPath}/category?method=deleteCategory&c_id=${category.c_id}">下载</a>
 										<a href="${pageContext.request.contextPath}/category?method=deleteCategory&c_id=${category.c_id}">明细</a>
 										<a href="${pageContext.request.contextPath}/contract?method=deleteContract&c_id=${contract.c_id}">删除</a>
 										<a href="${pageContext.request.contextPath}/contract-update.jsp?c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">修改</a>
