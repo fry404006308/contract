@@ -3,7 +3,7 @@ package com.fry.bean;
 public class Device {
     private int d_id;
     private int d_cid;
-    private int d_did;
+    private String d_did;
     private String d_type;
     private String d_campus;
     private String d_apartment;
@@ -29,11 +29,11 @@ public class Device {
         this.d_cid = d_cid;
     }
 
-    public int getD_did() {
+    public String getD_did() {
         return d_did;
     }
 
-    public void setD_did(int d_did) {
+    public void setD_did(String d_did) {
         this.d_did = d_did;
     }
 
