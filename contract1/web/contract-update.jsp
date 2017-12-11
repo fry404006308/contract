@@ -67,7 +67,7 @@
                                     <input type="text" name="c_id" value="${param.c_id}" readonly="readonly"  class="form-control" placeholder="合同系统编号" >
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">编号不能修改</p>
+                                    <p class="form-control-static text-danger">合同的系统编号不能修改</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -76,7 +76,7 @@
                                     <input type="text" name="c_name" value="${param.c_name}" class="form-control" placeholder="合同名称">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">名称不能为空</p>
+                                    <p class="form-control-static text-danger">合同的名称</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -85,7 +85,7 @@
                                     <input type="text" name="c_dtype" value="${param.c_dtype}" class="form-control" placeholder="型号">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">型号不能为空</p>
+                                    <p class="form-control-static text-danger">产品的型号</p>
                                 </div>
                             </div>
 
@@ -103,7 +103,7 @@
                                     </label>
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">请选择分类</p>
+                                    <p class="form-control-static text-danger">请选择产品的分类</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -112,7 +112,7 @@
                                     <input type="text" name="c_supplier" value="${param.c_supplier}" class="form-control" placeholder="供应商">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">供应商不能为空</p>
+                                    <p class="form-control-static text-danger">产品的供应商</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -121,7 +121,7 @@
                                     <input type="text" name="c_price" value="${param.c_price}"  class="form-control" placeholder="单价">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">单价不能为空</p>
+                                    <p class="form-control-static text-danger">产品的单价</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -130,7 +130,7 @@
                                     <input type="text" name="c_tprice" value="${param.c_tprice}" class="form-control" placeholder="总价">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">总价不能为空</p>
+                                    <p class="form-control-static text-danger">产品的总价</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -139,7 +139,7 @@
                                     <input type="text" name="c_count" value="${param.c_count}" class="form-control" placeholder="数量">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">数量不能为空</p>
+                                    <p class="form-control-static text-danger">产品的数量</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -148,7 +148,7 @@
                                     <input type="text" name="c_date" value="${param.c_date}" class="form-control" placeholder="购买日期">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">购买日期不能为空</p>
+                                    <p class="form-control-static text-danger">合同的购买日期（签订日期）</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -157,7 +157,7 @@
                                     <input type="text" name="c_campus" value="${param.c_campus}" class="form-control" placeholder="中北/闵行">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">校区不能为空</p>
+                                    <p class="form-control-static text-danger">校区</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -166,7 +166,7 @@
                                     <input type="text" name="c_person" value="${param.c_person}" class="form-control" placeholder="购买人">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">购买人不能为空</p>
+                                    <p class="form-control-static text-danger">合同的签订人</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -175,7 +175,7 @@
                                     <input type="text" name="c_upload" value="${param.c_upload}" class="form-control" placeholder="上传否">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">上传否</p>
+                                    <p class="form-control-static text-danger">合同是否已经上传</p>
                                 </div>
                             </div>
                             <div class="form-group">

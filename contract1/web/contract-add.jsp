@@ -67,7 +67,7 @@
                                     <input type="text" name="c_name" class="form-control" placeholder="合同名称">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">名称不能为空</p>
+                                    <p class="form-control-static text-danger">请输入合同的名称</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -76,7 +76,7 @@
                                     <input type="text" name="c_dtype" class="form-control" placeholder="型号">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">型号不能为空</p>
+                                    <p class="form-control-static text-danger">请输入合同中产品的型号</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -93,7 +93,7 @@
                                     </label>
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">请选择分类</p>
+                                    <p class="form-control-static text-danger">请选择产品的分类</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -102,7 +102,7 @@
                                     <input type="text" name="c_supplier" class="form-control" placeholder="供应商">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">供应商不能为空</p>
+                                    <p class="form-control-static text-danger">请输入产品的供应商</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -111,7 +111,7 @@
                                     <input type="text" name="c_price" class="form-control" placeholder="单价">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">单价不能为空</p>
+                                    <p class="form-control-static text-danger">合同中单品的单价</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -120,7 +120,7 @@
                                     <input type="text" name="c_tprice" class="form-control" placeholder="总价">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">总价不能为空</p>
+                                    <p class="form-control-static text-danger">合同中产品的总价</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -129,7 +129,7 @@
                                     <input type="text" name="c_count" class="form-control" placeholder="数量">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">数量不能为空</p>
+                                    <p class="form-control-static text-danger">合同中产品的数量</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -138,7 +138,7 @@
                                     <input type="text" name="c_date" class="form-control" placeholder="购买日期">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">购买日期不能为空</p>
+                                    <p class="form-control-static text-danger">产品的购买日期</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -147,7 +147,7 @@
                                     <input type="text" name="c_campus" class="form-control" placeholder="中北/闵行">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">校区不能为空</p>
+                                    <p class="form-control-static text-danger">合同所在的校区</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -156,7 +156,7 @@
                                     <input type="text" name="c_person" class="form-control" placeholder="购买人">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">购买人不能为空</p>
+                                    <p class="form-control-static text-danger">合同的购买人（签订者）</p>
                                 </div>
                             </div>
                             <div class="form-group">

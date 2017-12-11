@@ -90,7 +90,7 @@ public class UserServlet extends BaseServlet {
 
         boolean register = userService.register(user);
         if (register) {
-            response.sendRedirect(request.getContextPath()+"login.jsp");
+            response.sendRedirect(request.getContextPath()+"/login.jsp");
         }else {
             response.setContentType("text/html;charset=utf-8");
             response.getWriter().write("注册失败");

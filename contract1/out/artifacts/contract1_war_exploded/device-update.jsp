@@ -79,7 +79,7 @@
                                     <input type="text" name="d_id" class="form-control" value="${param.d_id}"  readonly="readonly" placeholder="设备编号">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">不能为空</p>
+                                    <p class="form-control-static text-danger">设备编号不能修改</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -88,7 +88,7 @@
                                     <input type="text" name="d_cid" class="form-control" value="${param.d_cid}"  readonly="readonly" placeholder="合同编号">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">不能为空</p>
+                                    <p class="form-control-static text-danger">合同编号不能修改</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -97,7 +97,7 @@
                                     <input type="text" name="d_did" class="form-control"  value="${param.d_did}" placeholder="设备处唯一编号">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">设备处唯一编号不能为空</p>
+                                    <p class="form-control-static text-danger">设备处设备唯一编号</p>
                                 </div>
                             </div>
 
@@ -107,7 +107,7 @@
                                     <input type="text" name="d_type" class="form-control" value="${param.d_type}" placeholder="类型">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">类型不能为空</p>
+                                    <p class="form-control-static text-danger">设备的类型</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -116,7 +116,7 @@
                                     <input type="text" name="d_campus" class="form-control"  value="${param.d_campus}"  placeholder="校区">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">校区不能为空</p>
+                                    <p class="form-control-static text-danger">设备所在的校区</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -125,7 +125,7 @@
                                     <input type="text" name="d_apartment" class="form-control" value="${param.d_apartment}"  placeholder="使用者部门">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">使用者部门不能为空</p>
+                                    <p class="form-control-static text-danger">使用者所在部门</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -134,7 +134,7 @@
                                     <input type="text" name="d_people" class="form-control" value="${param.d_people}"  placeholder="使用者姓名">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">使用者姓名不能为空</p>
+                                    <p class="form-control-static text-danger">使用者的姓名</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -143,7 +143,7 @@
                                     <input type="text" name="d_date" class="form-control" value="${param.d_date}"   placeholder="使用日期">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">使用日期不能为空</p>
+                                    <p class="form-control-static text-danger">使用日期</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -152,7 +152,7 @@
                                     <input type="text" name="d_used" class="form-control" value="${param.d_used}"  placeholder="设备报废否">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">设备报废否不能为空</p>
+                                    <p class="form-control-static text-danger">设备是否已经报废</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -161,7 +161,7 @@
                                     <input type="text" name="d_undate" class="form-control" value="${param.d_undate}"   placeholder="设备报废日期">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">设备报废日期不能为空</p>
+                                    <p class="form-control-static text-danger">设备报废日期（格式随意，比如2017.12.12）</p>
                                 </div>
                             </div>
                             <div class="form-group">
