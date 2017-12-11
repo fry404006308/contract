@@ -170,6 +170,15 @@
                                 </div>
                             </div>
                             <div class="form-group">
+                                <label class="col-sm-2 control-label">上传否</label>
+                                <div class="col-sm-5">
+                                    <input type="text" name="c_upload" value="${param.c_upload}" class="form-control" placeholder="上传否">
+                                </div>
+                                <div class="col-sm-5">
+                                    <p class="form-control-static text-danger">上传否</p>
+                                </div>
+                            </div>
+                            <div class="form-group">
                                 <label class="col-sm-2 control-label">备注</label>
                                 <div class="col-sm-5">
                                     <input type="text" name="c_remark" value="${param.c_remark}" class="form-control" placeholder="备注">

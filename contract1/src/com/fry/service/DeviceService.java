@@ -33,8 +33,8 @@ public class DeviceService {
         return updateDevice;
     }
     //4、查询设备
-    public List<Device> queryDevice(Device device) throws SQLException {
-        List<Device> devices = dao.queryDevice(device);
+    public List<Device> queryDevice(int cid) throws SQLException {
+        List<Device> devices = dao.queryDevice(cid);
         return devices;
     }
 }

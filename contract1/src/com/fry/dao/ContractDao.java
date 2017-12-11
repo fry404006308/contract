@@ -63,36 +63,6 @@ public class ContractDao {
     }
 
 
-
-
-
-
-
-
-
-//    public List<Category> queryCategoryLimit(int start,int currentCount) throws SQLException {
-//        ComboPooledDataSource dataSource=new ComboPooledDataSource();
-//        QueryRunner queryRunner=new QueryRunner(dataSource);
-//        String sql="select * from category limit ?,?";
-//        List<Category> categoryList = queryRunner.query(sql, new BeanListHandler<Category>(Category.class),start,currentCount);
-//        return categoryList;
-//    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /**
      * @method:queryCount 查询数据总数
      * @date: 2017/7/8
@@ -147,11 +117,13 @@ public class ContractDao {
         return row>0?true:false;
     }
 
-//    public int queryCount() throws SQLException {
-//        ComboPooledDataSource dataSource=new ComboPooledDataSource();
-//        QueryRunner queryRunner=new QueryRunner(dataSource);
-//        String sql="select count(*) from category";
-//        Long query = queryRunner.query(sql, new ScalarHandler<>());
-//        return query.intValue();
-//    }
+    //更新成功上传合同的contract的upload字段
+    public boolean updateUpload(Contract contract) throws SQLException{
+        dataSource=new ComboPooledDataSource();
+        queryRunner=new QueryRunner(dataSource);
+        String sql="update contract set c_upload='已上传' where c_id=?";
+        int row = queryRunner.update(sql,contract.getC_id());
+        dataSource.close();
+        return row>0?true:false;
+    }
 }

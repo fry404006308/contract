@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="contract1:war exploded" />
+      <artifact name="contract" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -18,75 +18,213 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="E:\2017-02-21--SoftWare\github\test\contract1\contract\contract1\exportToHTML" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ContractServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fry/web/ContractServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="84" selection-end-column="13" />
+            <state relative-caret-position="646">
+              <caret line="46" column="92" lean-forward="false" selection-start-line="46" selection-start-column="92" selection-end-line="46" selection-end-column="92" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fry/web/BaseServlet.java">
+      <file leaf-file-name="DeviceServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fry/web/DeviceServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="1121">
+              <caret line="72" column="101" lean-forward="false" selection-start-line="72" selection-start-column="101" selection-end-line="72" selection-end-column="101" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadContractServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fry/web/UploadContractServlet.java">
+      <file leaf-file-name="device-list.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/device-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="107" column="8" lean-forward="true" selection-start-line="107" selection-start-column="8" selection-end-line="108" selection-end-column="75" />
+            <state relative-caret-position="380">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fry/web/UserServlet.java">
+      <file leaf-file-name="device-list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/artifacts/contract1_war_exploded/device-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="878">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownloadContractServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fry/web/DownloadContractServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fry/service/DeviceService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="28" />
+            <state relative-caret-position="61">
+              <caret line="77" column="63" lean-forward="true" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1512969494667" expanded="true" signature="2620:5166" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="2620:5179" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="2620:5188" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="2657:5155" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="2728:5143" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="2743:3067" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="2756:3051" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="3082:5128" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="3133:5111" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="3147:5091" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="3555:5076" ph="..." />
+                <marker date="1512969494667" expanded="false" signature="5249:5283" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="5284:5354" ph="..." />
+                <marker date="1512969494667" expanded="true" signature="5309:5347" ph="..." />
+                <marker date="1512969494667" expanded="false" signature="5318:5324" ph="©" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/fry/web/DeviceServlet.java">
+      <file leaf-file-name="device-update.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/artifacts/contract1_war_exploded/device-update.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="113" column="91" lean-forward="true" selection-start-line="113" selection-start-column="91" selection-end-line="113" selection-end-column="91" />
+            <state relative-caret-position="1102">
+              <caret line="58" column="53" lean-forward="false" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+              <folding>
+                <marker date="1512969494672" expanded="true" signature="2787:10893" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="2787:10914" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="2837:10870" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="2934:10842" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="4246:4791" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="4384:4574" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="4629:4756" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="4844:5391" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="4982:5174" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="5229:5356" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="5444:5984" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="5585:5760" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="5815:5949" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="6038:6564" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="6174:6345" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="6400:6529" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="6617:7149" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="6753:6930" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="6985:7114" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="7202:7748" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="7341:7526" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="7581:7713" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="7801:8341" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="7940:8119" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="8174:8306" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="8394:8928" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="8532:8707" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="8762:8893" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="8981:9517" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="9120:9295" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="9350:9482" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="9570:10114" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="9710:9891" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="9946:10079" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="10167:10517" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="10303:10482" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="10570:10810" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="10642:10775" ph="..." />
+                <marker date="1512969494672" expanded="false" signature="10991:11025" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="11026:11109" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="11054:11102" ph="..." />
+                <marker date="1512969494672" expanded="false" signature="11070:11076" ph="©" />
+                <marker date="1512969494672" expanded="true" signature="11219:11775" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="11787:12233" ph="..." />
+                <marker date="1512969494672" expanded="true" signature="11814:12021" ph="{...}" />
+                <marker date="1512969494672" expanded="true" signature="12045:12224" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="device-add.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/artifacts/contract1_war_exploded/device-add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1102">
+              <caret line="58" column="59" lean-forward="false" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+              <folding>
+                <marker date="1512969494663" expanded="true" signature="2787:10129" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="2787:10150" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="2837:10106" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="2934:10078" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="2987:4845" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="4437:4628" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="4683:4810" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="4898:5414" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="5039:5190" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="5245:5379" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="5468:5994" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="5604:5775" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="5830:5959" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="6047:6551" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="6183:6332" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="6387:6516" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="6604:7120" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="6743:6898" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="6953:7085" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="7173:7686" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="7312:7464" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="7519:7651" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="7739:8247" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="7877:8026" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="8081:8212" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="8300:8811" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="8439:8589" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="8644:8776" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="8864:9380" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="9004:9157" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="9212:9345" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="9433:9753" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="9569:9718" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="9806:10046" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="9878:10011" ph="..." />
+                <marker date="1512969494663" expanded="false" signature="10227:10261" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="10262:10345" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="10290:10338" ph="..." />
+                <marker date="1512969494663" expanded="false" signature="10306:10312" ph="©" />
+                <marker date="1512969494663" expanded="true" signature="10455:11011" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="11023:11469" ph="..." />
+                <marker date="1512969494663" expanded="true" signature="11050:11257" ph="{...}" />
+                <marker date="1512969494663" expanded="true" signature="11281:11460" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="device-update.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/device-update.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1592">
+              <caret line="31" column="64" lean-forward="false" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="device-add.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/device-add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="31" column="64" lean-forward="false" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/error.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contract-update.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/contract-update.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="66" column="108" lean-forward="false" selection-start-line="66" selection-start-column="89" selection-end-line="66" selection-end-column="108" />
               <folding />
             </state>
           </provider>
@@ -108,8 +246,8 @@
       <find>text-center</find>
       <find>list-group-item</find>
       <find>category</find>
-      <find>action</find>
       <find>col-sm-5</find>
+      <find>action</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,25 +271,33 @@
         <option value="$PROJECT_DIR$/src/com/fry/service/UserService.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/com/fry/web/UserServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/fry/service/ContractService.java" />
         <option value="$PROJECT_DIR$/web/contract-add.jsp" />
-        <option value="$PROJECT_DIR$/web/contract-update.jsp" />
         <option value="$PROJECT_DIR$/src/com/fry/bean/Contract.java" />
         <option value="$PROJECT_DIR$/src/com/fry/bean/Device.java" />
         <option value="$PROJECT_DIR$/src/com/fry/web/UServlet.java" />
         <option value="$PROJECT_DIR$/src/com/fry/web/UploadCServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/fry/web/BaseServlet.java" />
-        <option value="$PROJECT_DIR$/web/contract-list.jsp" />
         <option value="$PROJECT_DIR$/web/contract-download.jsp" />
         <option value="$PROJECT_DIR$/src/com/fry/web/DownloadContractServlet.java" />
         <option value="$PROJECT_DIR$/web/contract-upload.jsp" />
-        <option value="$PROJECT_DIR$/src/com/fry/web/UploadContractServlet.java" />
         <option value="$PROJECT_DIR$/web/ok.jsp" />
+        <option value="$PROJECT_DIR$/src/com/fry/web/ContractServlet.java" />
         <option value="$PROJECT_DIR$/src/com/fry/dao/ContractDao.java" />
+        <option value="$PROJECT_DIR$/src/com/fry/service/ContractService.java" />
+        <option value="$PROJECT_DIR$/web/error.jsp" />
+        <option value="$PROJECT_DIR$/src/com/fry/web/UploadContractServlet.java" />
+        <option value="$PROJECT_DIR$/web/contract-update.jsp" />
+        <option value="$PROJECT_DIR$/src/com/fry/web/BaseServlet_d.java" />
+        <option value="$PROJECT_DIR$/src/com/fry/web/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/web/contract-list.jsp" />
         <option value="$PROJECT_DIR$/src/com/fry/dao/DeviceDao.java" />
         <option value="$PROJECT_DIR$/src/com/fry/service/DeviceService.java" />
-        <option value="$PROJECT_DIR$/src/com/fry/web/ContractServlet.java" />
         <option value="$PROJECT_DIR$/src/com/fry/web/DeviceServlet.java" />
+        <option value="$PROJECT_DIR$/out/artifacts/contract1_war_exploded/device-update.jsp" />
+        <option value="$PROJECT_DIR$/out/artifacts/contract1_war_exploded/device-add.jsp" />
+        <option value="$PROJECT_DIR$/out/artifacts/contract1_war_exploded/device-list.jsp" />
+        <option value="$PROJECT_DIR$/web/device-update.jsp" />
+        <option value="$PROJECT_DIR$/web/device-add.jsp" />
+        <option value="$PROJECT_DIR$/web/device-list.jsp" />
       </list>
     </option>
   </component>
@@ -169,8 +315,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1788" />
-    <option name="y" value="97" />
+    <option name="x" value="1890" />
+    <option name="y" value="249" />
     <option name="width" value="1364" />
     <option name="height" value="728" />
   </component>
@@ -191,6 +337,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -202,86 +350,54 @@
             <path>
               <item name="contract1" type="b2602c69:ProjectViewProjectNode" />
               <item name="contract1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="contract1" type="b2602c69:ProjectViewProjectNode" />
               <item name="contract1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fry" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="contract1" type="b2602c69:ProjectViewProjectNode" />
               <item name="contract1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fry" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contract1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contract1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fry" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contract1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contract1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fry" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contract1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contract1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fry" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="contract1_war_exploded" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="contract1" type="b2602c69:ProjectViewProjectNode" />
               <item name="contract1" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contract1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contract1" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contract1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contract1" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/contract1_war_exploded" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\2017-02-21--SoftWare\github\test\contract1\contract\contract1\web\manual" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\2017-02-21--SoftWare\github\test\contract1\contract\contract1\web" />
       <recent name="E:\2017-02-21--SoftWare\github\test\contract1\contract\contract1\web\WEB-INF\lib" />
       <recent name="D:\software\coding\github\11.14-contract1\contract\contract1\web" />
       <recent name="C:\Users\user\Desktop\contract1\src\com\fry\bean" />
       <recent name="C:\Users\user\Desktop\contract1\web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fry.web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2017-02-21--SoftWare\github\test\contract1\contract\contract1\web\manual" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -472,17 +588,23 @@
       <workItem from="1510995338913" duration="3437000" />
       <workItem from="1511031019159" duration="5467000" />
       <workItem from="1511037046775" duration="4739000" />
+      <workItem from="1512914684222" duration="16000" />
+      <workItem from="1512914943994" duration="22782000" />
+      <workItem from="1512939169328" duration="1268000" />
+      <workItem from="1512968401128" duration="456000" />
+      <workItem from="1512969286771" duration="438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65422000" />
+    <option name="totallyTimeSpent" value="90382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -490,13 +612,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31528664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4713376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115625" sideWeight="0.47983015" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115625" sideWeight="0.52016985" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12916666" sideWeight="0.80923694" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12916666" sideWeight="0.19076306" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -508,7 +630,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -556,7 +677,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/fry/service/ContractService.java</url>
-          <line>143</line>
+          <line>87</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -565,33 +686,88 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/fry/web/UserServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/device-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/contract-list.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/ContractServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="78" column="61" lean-forward="true" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
+        <state relative-caret-position="646">
+          <caret line="46" column="92" lean-forward="false" selection-start-line="46" selection-start-column="92" selection-end-line="46" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/handlers/BeanListHandler.class">
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/DeviceServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        <state relative-caret-position="1121">
+          <caret line="72" column="101" lean-forward="false" selection-start-line="72" selection-start-column="101" selection-end-line="72" selection-end-column="101" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/dao/ContractDao.java">
+    <entry file="file://$PROJECT_DIR$/web/device-update.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="55" column="58" lean-forward="false" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+        <state relative-caret-position="3306">
+          <caret line="174" column="93" lean-forward="true" selection-start-line="174" selection-start-column="93" selection-end-line="174" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/device-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="81" column="80" lean-forward="false" selection-start-line="81" selection-start-column="80" selection-end-line="81" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/contract-update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="108" lean-forward="false" selection-start-line="66" selection-start-column="89" selection-end-line="66" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/contract-upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/service/DeviceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/dao/DeviceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/device-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -599,285 +775,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/fry/web/ContractServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
-          <caret line="78" column="67" lean-forward="false" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/web/BaseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/web/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="65" column="67" lean-forward="true" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/service/ContractService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="74" column="53" lean-forward="false" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/contract-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2698">
-          <caret line="142" column="21" lean-forward="false" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/contract-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/bean/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/bean/Contract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/login2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3116">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="90" column="22" lean-forward="false" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fresh/src/net/zixue/bean/Page.java" />
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/QueryRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1123">
-          <caret line="82" column="82" lean-forward="false" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/ResultSetHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/handlers/BeanListHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/bean/Contract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/contract1_war_exploded/contract-upload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="88" column="38" lean-forward="false" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/contract-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1881">
-          <caret line="99" column="81" lean-forward="false" selection-start-line="99" selection-start-column="81" selection-end-line="99" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/web/UServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/fry/web/UploadCServlet.java" />
-    <entry file="file://$PROJECT_DIR$/out/artifacts/contract1_war_exploded/contract-update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/contract-update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="83" lean-forward="false" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/contract-download.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="5" column="18578" lean-forward="false" selection-start-line="5" selection-start-column="18578" selection-end-line="5" selection-end-column="18578" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/contract-upload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="77" column="54" lean-forward="false" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/ok.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/contract-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-589">
-          <caret line="65" column="53" lean-forward="true" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/bean/Device.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/bean/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/dao/DeviceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/service/ContractService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/dao/ContractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="84" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -886,56 +784,388 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/UploadContractServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="107" column="8" lean-forward="false" selection-start-line="107" selection-start-column="8" selection-end-line="108" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/DownloadContractServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/service/DeviceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/DeviceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="113" column="91" lean-forward="false" selection-start-line="113" selection-start-column="91" selection-end-line="113" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/ContractServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="84" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/UploadContractServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="107" column="8" lean-forward="true" selection-start-line="107" selection-start-column="8" selection-end-line="108" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/DownloadContractServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/service/DeviceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/DeviceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="113" column="91" lean-forward="true" selection-start-line="113" selection-start-column="91" selection-end-line="113" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fry/web/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="878">
+        <state relative-caret-position="912">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fry/web/UploadContractServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="107" column="8" lean-forward="true" selection-start-line="107" selection-start-column="8" selection-end-line="108" selection-end-column="75" />
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/contract-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/dao/ContractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="119" column="4" lean-forward="true" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/service/ContractService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="99" column="4" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fry/web/DownloadContractServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="-51">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/contract1_war_exploded/contract-upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/UploadContractServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="119" column="121" lean-forward="false" selection-start-line="119" selection-start-column="121" selection-end-line="119" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/bean/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/bean/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/BaseServlet_d.java" />
+    <entry file="file://$PROJECT_DIR$/web/contract-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="89" column="84" lean-forward="true" selection-start-line="89" selection-start-column="84" selection-end-line="89" selection-end-column="477" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/web/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fry/dao/DeviceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fry/service/DeviceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/contract-upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fry/web/ContractServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="84" selection-end-column="13" />
+        <state relative-caret-position="646">
+          <caret line="46" column="92" lean-forward="false" selection-start-line="46" selection-start-column="92" selection-end-line="46" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/contract-update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="108" lean-forward="false" selection-start-line="66" selection-start-column="89" selection-end-line="66" selection-end-column="108" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fry/web/DeviceServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="113" column="91" lean-forward="true" selection-start-line="113" selection-start-column="91" selection-end-line="113" selection-end-column="91" />
+        <state relative-caret-position="1121">
+          <caret line="72" column="101" lean-forward="false" selection-start-line="72" selection-start-column="101" selection-end-line="72" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/contract1_war_exploded/device-update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="53" lean-forward="false" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+          <folding>
+            <marker date="1512969494672" expanded="true" signature="2787:10893" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="2787:10914" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="2837:10870" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="2934:10842" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="4246:4791" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="4384:4574" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="4629:4756" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="4844:5391" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="4982:5174" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="5229:5356" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="5444:5984" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="5585:5760" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="5815:5949" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="6038:6564" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="6174:6345" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="6400:6529" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="6617:7149" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="6753:6930" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="6985:7114" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="7202:7748" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="7341:7526" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="7581:7713" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="7801:8341" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="7940:8119" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="8174:8306" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="8394:8928" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="8532:8707" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="8762:8893" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="8981:9517" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="9120:9295" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="9350:9482" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="9570:10114" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="9710:9891" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="9946:10079" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="10167:10517" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="10303:10482" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="10570:10810" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="10642:10775" ph="..." />
+            <marker date="1512969494672" expanded="false" signature="10991:11025" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="11026:11109" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="11054:11102" ph="..." />
+            <marker date="1512969494672" expanded="false" signature="11070:11076" ph="©" />
+            <marker date="1512969494672" expanded="true" signature="11219:11775" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="11787:12233" ph="..." />
+            <marker date="1512969494672" expanded="true" signature="11814:12021" ph="{...}" />
+            <marker date="1512969494672" expanded="true" signature="12045:12224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/contract1_war_exploded/device-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="59" lean-forward="false" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+          <folding>
+            <marker date="1512969494663" expanded="true" signature="2787:10129" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="2787:10150" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="2837:10106" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="2934:10078" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="2987:4845" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="4437:4628" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="4683:4810" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="4898:5414" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="5039:5190" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="5245:5379" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="5468:5994" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="5604:5775" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="5830:5959" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="6047:6551" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="6183:6332" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="6387:6516" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="6604:7120" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="6743:6898" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="6953:7085" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="7173:7686" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="7312:7464" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="7519:7651" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="7739:8247" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="7877:8026" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="8081:8212" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="8300:8811" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="8439:8589" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="8644:8776" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="8864:9380" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="9004:9157" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="9212:9345" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="9433:9753" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="9569:9718" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="9806:10046" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="9878:10011" ph="..." />
+            <marker date="1512969494663" expanded="false" signature="10227:10261" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="10262:10345" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="10290:10338" ph="..." />
+            <marker date="1512969494663" expanded="false" signature="10306:10312" ph="©" />
+            <marker date="1512969494663" expanded="true" signature="10455:11011" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="11023:11469" ph="..." />
+            <marker date="1512969494663" expanded="true" signature="11050:11257" ph="{...}" />
+            <marker date="1512969494663" expanded="true" signature="11281:11460" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/contract1_war_exploded/device-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="77" column="63" lean-forward="true" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+          <folding>
+            <marker date="1512969494667" expanded="true" signature="2620:5166" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="2620:5179" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="2620:5188" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="2657:5155" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="2728:5143" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="2743:3067" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="2756:3051" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="3082:5128" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="3133:5111" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="3147:5091" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="3555:5076" ph="..." />
+            <marker date="1512969494667" expanded="false" signature="5249:5283" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="5284:5354" ph="..." />
+            <marker date="1512969494667" expanded="true" signature="5309:5347" ph="..." />
+            <marker date="1512969494667" expanded="false" signature="5318:5324" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/device-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="31" column="64" lean-forward="false" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/device-update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1592">
+          <caret line="31" column="64" lean-forward="false" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/device-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -946,7 +1176,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>contract1:war exploded</last-edited>
+          <last-edited>contract</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

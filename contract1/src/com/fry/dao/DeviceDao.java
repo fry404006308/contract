@@ -18,7 +18,7 @@ public class DeviceDao {
     public boolean  addDevice(Device device) throws SQLException {
         dataSource=new ComboPooledDataSource();
         queryRunner=new QueryRunner(dataSource);
-        String sql="insert into device values(null,?,?,?,?,?,?,?,?,?)";
+        String sql="insert into device values(null,?,?,?,?,?,?,?,?,?,?)";
         int row = queryRunner.update(sql,device.getD_cid(),device.getD_did(),device.getD_type(),device.getD_campus(),device.getD_apartment(),device.getD_people(),device.getD_date(),device.getD_used(),device.getD_undate(),device.getD_remark());
         dataSource.close();
         if (row>0){
@@ -53,11 +53,11 @@ public class DeviceDao {
     }
 
     //查找设备
-    public List<Device> queryDevice(Device device) throws SQLException {
+    public List<Device> queryDevice(int cid) throws SQLException {
         dataSource=new ComboPooledDataSource();
         queryRunner=new QueryRunner(dataSource);
         String sql="select * from device where d_cid=?";
-        List<Device> deviceList = queryRunner.query(sql, new BeanListHandler<Device>(Device.class),device.getD_cid());
+        List<Device> deviceList = queryRunner.query(sql, new BeanListHandler<Device>(Device.class),cid);
         dataSource.close();
         return deviceList;
     }

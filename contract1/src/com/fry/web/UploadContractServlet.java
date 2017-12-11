@@ -1,5 +1,8 @@
 package com.fry.web;
 
+import com.fry.bean.Contract;
+import com.fry.service.ContractService;
+import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
@@ -14,6 +17,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
+import java.util.Map;
 
 @WebServlet(name = "UploadContractServlet",urlPatterns = "/uploadContract")
 public class UploadContractServlet extends HttpServlet {
@@ -90,6 +94,13 @@ public class UploadContractServlet extends HttpServlet {
                         //使用FileOutputStream输出流将缓冲区的数据写入到指定的目录(savePath + "\\" + filename)当中
                         out.write(buffer, 0, len);
                     }
+                    //更新成功上传合同的contract的upload字段
+                    // 获取参数 通过BeanUtils封装实体类
+                    Map<String, String[]> parameterMap = request.getParameterMap();
+                    Contract contract=new Contract();
+                    BeanUtils.populate(contract,parameterMap);
+                    ContractService contractService=new ContractService();
+                    contractService.updateUpload(contract);
                     //关闭输入流
                     in.close();
                     //关闭输出流
@@ -101,12 +112,12 @@ public class UploadContractServlet extends HttpServlet {
             }
         }catch (Exception e) {
             message= "文件上传失败！";
+            request.setAttribute("message",message);
+            request.getRequestDispatcher("/error.jsp").forward(request, response);
             e.printStackTrace();
 
         }
-        System.out.println("upload:");
-        request.setAttribute("message",message);
-        request.getRequestDispatcher("/ok.jsp").forward(request, response);
+        response.sendRedirect(request.getContextPath()+"/contract?method=getContractList&currentPage=1&currentCount=10");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

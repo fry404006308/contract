@@ -79,62 +79,6 @@ public class ContractService {
          return page;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-////    public PageBean findPageCategory(int currentPage, int currentCount) throws SQLException {
-////        PageBean pageBean = new PageBean();
-////        CategoryDao dao = new CategoryDao();
-////        // 查询总提哦啊书
-////        int totalCount = dao.queryCount();
-////        // 封装分页数据
-////        pageBean.setTotalCount(totalCount);
-////        pageBean.setCurrentCount(currentCount);
-////        pageBean.setCurrentPage(currentPage);
-////        /**
-////         * 总数 每页显示    页数
-////         *10    10    1       1
-////         * 11   10     1.1      2
-////         * 9    10    0.9       1
-////         * java ceil
-////         */
-////
-////        // 计算总页数
-////        double totalPage = Math.ceil(0.1 * totalCount / currentCount);
-////        pageBean.setTotalPage((int) totalPage);
-////
-////        // 计算起始位置
-//////        页数  每页显示条数  起始位置
-//////        1          3          0
-//////        2          3          3
-//////        3          3          6
-////        //  (当前页数-1 )乘以每页显示的条数=起始位置
-////        int startPosition = (currentPage - 1) * currentCount;
-////        // 获取categoryList
-////        List<Category> categories = dao.queryCategoryLimit(startPosition, currentCount);
-////        // 将生鲜列表list封装到pageBean中
-////
-////        pageBean.setList(categories);
-////
-////        return pageBean;
-////    }
-//
-//
     public boolean updateContract(Contract contract) throws SQLException {
         ContractDao dao=new ContractDao();
         boolean updateContract = dao.updateContract(contract);
@@ -151,5 +95,12 @@ public class ContractService {
         ContractDao dao=new ContractDao();
         boolean deleteContract = dao.deleteContract(contract);
         return deleteContract;
+    }
+
+    //更新成功上传合同的contract的upload字段
+    public boolean updateUpload(Contract contract) throws SQLException {
+        ContractDao dao=new ContractDao();
+        boolean updateUpload = dao.updateUpload(contract);
+        return updateUpload;
     }
 }
