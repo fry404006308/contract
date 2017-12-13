@@ -52,15 +52,37 @@ public class UserServlet extends BaseServlet {
                 // 将用户名和密码加入到cookie中
                 Cookie nameCookie = new Cookie("name", name);
                 Cookie passwordCookie = new Cookie("password", password);
+//                Cookie jsessionidCookie = new Cookie("JSESSIONID", request.getSession().getId());
                 //设置cookie的有效期 防止销毁
                 nameCookie.setMaxAge(60*60*24);
                 passwordCookie.setMaxAge(60*60*24);
+//                jsessionidCookie.setMaxAge(60*60*24);
                 //将cookie发送给客户端保存
                 response.addCookie(nameCookie);
                 response.addCookie(passwordCookie);
-
+//                response.addCookie(jsessionidCookie);
             }
-              request.getSession().setAttribute("user",user);
+            //获取客户端来的cookies
+            Cookie[] cookies=request.getCookies();
+            for(Cookie cookie1:cookies){
+                if(cookie1.getName().equals("name")){
+//                    System.out.println("name: "+cookie1.getValue());
+                }
+                if(cookie1.getName().equals("password")){
+//                    System.out.println("password: "+cookie1.getValue());
+                }
+                if(cookie1.getName().equals("jsessionidCookie")){
+//                    System.out.println("password: "+cookie1.getValue());
+                }
+            }
+            //设置用户的session
+            request.getSession().setAttribute("user",user);
+            request.getSession().setAttribute("USERSESSIONKEY",request.getSession().getId());
+            //测试session
+//            HttpSession session= request.getSession();
+//            String sessionId=session.getId();
+            //System.out.println("sessionId: "+sessionId);
+
             //登录成功跳转种类列表界面
 
             //response.sendRedirect(request.getContextPath()+"/category?method=getCategoryList&currentPage=1&currentCount=10");
@@ -88,13 +110,22 @@ public class UserServlet extends BaseServlet {
 
         UserService userService=new UserService();
 
-        boolean register = userService.register(user);
-        if (register) {
-            response.sendRedirect(request.getContextPath()+"/login.jsp");
-        }else {
-            response.setContentType("text/html;charset=utf-8");
-            response.getWriter().write("注册失败");
+        //邀请码
+        String acceptcode=request.getParameter("acceptcode");
+        boolean register = false;
+        if(acceptcode.equals("zdhb2017")){
+            register = userService.register(user);
+            if (register) {
+                response.sendRedirect(request.getContextPath()+"/login.jsp");
+            }else {
+                response.setContentType("text/html;charset=utf-8");
+                response.getWriter().write("注册失败");
+            }
+        }else{
+            //response.setContentType("text/html;charset=utf-8");
+            response.getWriter().write("邀请码不正确");
         }
+
     }
 
 }

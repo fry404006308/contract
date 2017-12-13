@@ -62,12 +62,14 @@
                         <form action="contract" method="post" class="form-horizontal" role="form">
                             <div class="form-group">
                                 <input type="hidden" name="method" value="updateContract">
-                                <label class="col-sm-2 control-label">编号</label>
+                                <input type="hidden" name="c_upload" value="${param.c_upload}">
+                                <input type="hidden" name="c_id" value="${param.c_id}">
+                                <label class="col-sm-2 control-label">合同序号</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_id" value="${param.c_id}" readonly="readonly"  class="form-control" placeholder="合同系统编号" >
+                                    <input type="text" name="contract_id" value="${param.contract_id}" readonly="readonly"  class="form-control" placeholder="合同序号" >
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">合同的系统编号不能修改</p>
+                                    <p class="form-control-static text-danger">合同序号不能修改</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -169,15 +171,15 @@
                                     <p class="form-control-static text-danger">合同的签订人</p>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">上传否</label>
-                                <div class="col-sm-5">
-                                    <input type="text" name="c_upload" value="${param.c_upload}" class="form-control" placeholder="上传否">
-                                </div>
-                                <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">合同是否已经上传</p>
-                                </div>
-                            </div>
+                            <%--<div class="form-group">--%>
+                                <%--<label class="col-sm-2 control-label">上传否</label>--%>
+                                <%--<div class="col-sm-5">--%>
+                                    <%--<input type="text" name="c_upload" value="${param.c_upload}" class="form-control" placeholder="上传否">--%>
+                                <%--</div>--%>
+                                <%--<div class="col-sm-5">--%>
+                                    <%--<p class="form-control-static text-danger">合同是否已经上传</p>--%>
+                                <%--</div>--%>
+                            <%--</div>--%>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">备注</label>
                                 <div class="col-sm-5">

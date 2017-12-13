@@ -79,6 +79,12 @@
                                                                     name="did" value="0"/>
                 <ul class="reg_form" id="reg-ul">
                     <div id="userCue" class="cue">快速注册请注意格式</div>
+                    <li><label for="user" class="input-tips2">邀请码：</label>
+                        <div class="inputOuter2">
+                            <input type="text" id="acceptcode" name="acceptcode" maxlength="16"
+                                   class="inputstyle2" placeholder="没有邀请码无法注册" />
+                        </div>
+                    </li>
                     <li><label for="user" class="input-tips2">用户名：</label>
                         <div class="inputOuter2">
                             <input type="text" id="user" name="u_name" maxlength="16"
@@ -97,6 +103,7 @@
                                    class="inputstyle2"/>
                         </div>
                     </li>
+
 
                     <li><label for="email" class="input-tips2">邮箱：</label>
                         <div class="inputOuter2">

@@ -30,6 +30,9 @@ public class DeviceServlet extends BaseServlet {
             BeanUtils.populate(contract,parameterMap);
             request.setAttribute("contract",contract);
 
+            System.out.println("addDevice  d_cid: "+device.getD_cid());
+            System.out.println("addDevice  c_id: "+contract.getC_id());
+
             DeviceService deviceService=new DeviceService();
             boolean addDevice = deviceService.addDevice(device);
             if (addDevice){

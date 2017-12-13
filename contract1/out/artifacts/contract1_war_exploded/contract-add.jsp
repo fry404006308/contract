@@ -190,7 +190,7 @@
 <script src="static/js/jquery-3.1.0.min.js"></script>
 <script src="static/js/bootstrap.min.js"></script>
 <%
-    System.out.println(response.getStatus() + "--------------status");
+//    System.out.println(response.getStatus() + "--------------status");
     if (response.getStatus() == 201) {
         out.write("<script type=\"text/javascript\">\n" +
                 "    window.onload=function(){\n" +

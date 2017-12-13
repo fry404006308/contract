@@ -29,8 +29,8 @@
             <!-- 左侧内容 -->
             <div class="col-md-3">
                 <div class="list-group">
-                    <a href="${pageContext.request.contextPath}/device?method=queryDevice&c_id=${param.c_id}&c_name=${param.c_name}&c_dtype=${param.c_dtype}&c_type=${param.c_type}&c_supplier=${param.c_supplier}&c_price=${param.c_price}&c_tprice=${param.c_tprice}&c_count=${param.c_count}&c_date=${param.c_date}&c_campus=${param.c_campus}&c_person=${param.c_person}&c_upload=${param.c_upload}&c_remark=${param.c_remark}" class="list-group-item text-center ">合同列表</a>
-                    <a href="${pageContext.request.contextPath}/device-add.jsp?d_cid=${param.c_id}" class="list-group-item text-center active">新增合同</a>
+                    <a href="${pageContext.request.contextPath}/device?method=queryDevice&contract_id=${param.contract_id}&c_id=${param.c_id}&c_name=${param.c_name}&c_dtype=${param.c_dtype}&c_type=${param.c_type}&c_supplier=${param.c_supplier}&c_price=${param.c_price}&c_tprice=${param.c_tprice}&c_count=${param.c_count}&c_date=${param.c_date}&c_campus=${param.c_campus}&c_person=${param.c_person}&c_upload=${param.c_upload}&c_remark=${param.c_remark}" class="list-group-item text-center ">设备列表</a>
+                    <a href="${pageContext.request.contextPath}/device-add.jsp?contract_id=${param.contract_id}&c_id=${param.c_id}&c_name=${param.c_name}&c_dtype=${param.c_dtype}&c_type=${param.c_type}&c_supplier=${param.c_supplier}&c_price=${param.c_price}&c_tprice=${param.c_tprice}&c_count=${param.c_count}&c_date=${param.c_date}&c_campus=${param.c_campus}&c_person=${param.c_person}&c_upload=${param.c_upload}&c_remark=${param.c_remark}" class="list-group-item text-center active">新增设备</a>
                 </div>
             </div>
             <!-- 右侧内容 -->
@@ -74,12 +74,22 @@
                                 <input type="hidden" name="c_person" value="${param.c_person}">
                                 <input type="hidden" name="c_upload" value="${param.c_upload}">
                                 <input type="hidden" name="c_remark" value="${param.c_remark}">
-                                <label class="col-sm-2 control-label">合同编号</label>
+                                <input type="hidden" name="d_cid" value="${param.c_id}">
+                                <label class="col-sm-2 control-label">合同序号</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="d_cid" class="form-control" value="${param.c_id}"  readonly="readonly" placeholder="合同编号">
+                                    <input type="text" name="contract_id" class="form-control" value="${param.contract_id}"  readonly="readonly" placeholder="合同编号">
                                 </div>
                                 <div class="col-sm-5">
-                                    <p class="form-control-static text-danger">系统自动生成</p>
+                                    <p class="form-control-static text-danger">合同序号不能修改</p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">合同名称</label>
+                                <div class="col-sm-5">
+                                    <input type="text" name="c_name" class="form-control" value="${param.c_name}"  readonly="readonly" placeholder="合同名称">
+                                </div>
+                                <div class="col-sm-5">
+                                    <p class="form-control-static text-danger">合同名称不用填写</p>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -186,7 +196,7 @@
 <script src="static/js/jquery-3.1.0.min.js"></script>
 <script src="static/js/bootstrap.min.js"></script>
 <%
-    System.out.println(response.getStatus() + "--------------status");
+//    System.out.println(response.getStatus() + "--------------status");
     if (response.getStatus() == 201) {
         out.write("<script type=\"text/javascript\">\n" +
                 "    window.onload=function(){\n" +

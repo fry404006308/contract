@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.net.URLEncoder;
 
 @WebServlet(name = "DownloadContractServlet",urlPatterns = "/downloadContract")
 public class DownloadContractServlet extends HttpServlet {
@@ -34,11 +35,14 @@ public class DownloadContractServlet extends HttpServlet {
         }
         //得到要下载的文件名
         String fileName = request.getParameter("filename");
+
         String desFile=fileName+".pdf";
+        System.out.println("desFile: "+desFile);
 
         //设置响应头，控制浏览器下载该文件
         //response.setHeader("content-disposition", "attachment;filename=" + URLEncoder.encode(desFile, "UTF-8"));
-        response.setHeader("content-disposition", "attachment;filename=" + desFile);
+//        response.setHeader("content-disposition", "attachment;filename=" + desFile);
+        response.setHeader("content-disposition", "attachment;filename=" + URLEncoder.encode(desFile, "UTF-8"));
 
         //读取要下载的文件，保存到文件输入流
         //要下载文件的源

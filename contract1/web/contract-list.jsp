@@ -50,7 +50,7 @@
 						<table class="table table-striped table-responsive table-hover">
 							<thead>
 								<tr>
-									<th>编号</th>
+									<th>合同</th>
 									<th>名称</th>
 									<th>型号</th>
 									<th>类型</th>
@@ -67,10 +67,13 @@
 								</tr>
 							</thead>
 							<tbody>
+							<%
+								int contract_id= 0;             //声明在<% >内的变量
+							%>
 							<c:forEach items="${page.list}" var="contract">
 
 								<tr>
-									<th>${contract.c_id}</th>
+									<th><%= ++contract_id %></th>
 									<th>${contract.c_name}</th>
 									<th>${contract.c_dtype}</th>
 									<th>${contract.c_type}</th>
@@ -85,11 +88,11 @@
 									<th>${contract.c_remark}</th>
 									<td>
 										<%--<a href="">详情</a>--%>
-										<a href="${pageContext.request.contextPath}/contract-upload.jsp?c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">上传</a>
-										<a href="${pageContext.request.contextPath}/downloadContract?c_id=${contract.c_id}&filename=${contract.c_name}">下载</a>
-										<a href="${pageContext.request.contextPath}/device?method=queryDevice&c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">明细</a>
-										<a href="${pageContext.request.contextPath}/contract?method=deleteContract&c_id=${contract.c_id}">删除</a>
-										<a href="${pageContext.request.contextPath}/contract-update.jsp?c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">修改</a>
+										<a href="${pageContext.request.contextPath}/contract-upload.jsp?contract_id=<%= contract_id %>&c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">上传</a>
+										<a href="${pageContext.request.contextPath}/downloadContract?contract_id=<%= contract_id %>&c_id=${contract.c_id}&filename=${contract.c_name}">下载</a>
+										<a href="${pageContext.request.contextPath}/device?method=queryDevice&contract_id=<%= contract_id %>&c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">明细</a>
+										<a href="${pageContext.request.contextPath}/contract?method=deleteContract&contract_id=<%= contract_id %>&c_id=${contract.c_id}">删除</a>
+										<a href="${pageContext.request.contextPath}/contract-update.jsp?contract_id=<%= contract_id %>&c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">修改</a>
 									</td>
 
 								</tr>

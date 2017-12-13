@@ -54,11 +54,12 @@
                     <div class="panel-heading">上传合同</div>
                     <div class="panel-body">
                         <form action="${pageContext.request.contextPath}/uploadContract?c_id=${param.c_id}"  method="post" enctype="multipart/form-data" class="form-horizontal" role="form">
+                            <input type="hidden" name="c_id" value="${param.c_id}">
                             <div class="form-group">
                                 <!--input type="hidden" name="method" value="uploadContract"-->
                                 <label class="col-sm-2 control-label">编号</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_id" value="${param.c_id}" readonly="readonly"  class="form-control" placeholder="合同系统编号" >
+                                    <input type="text" name="contract_id" value="${param.contract_id}" readonly="readonly"  class="form-control" placeholder="合同系统编号" >
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">编号不能修改</p>
