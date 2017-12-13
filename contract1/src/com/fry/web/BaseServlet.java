@@ -20,7 +20,7 @@ public class BaseServlet extends HttpServlet {
         try {
             // 1 获取方法名字
             String method = req.getParameter("method");
-//            System.out.println("method: "+method);
+            //System.out.println("method: "+method);
             // 2 获取到当前对象的字节码文件
             Class clazz=this.getClass();
             // 3 拿到字节码对象中的方法

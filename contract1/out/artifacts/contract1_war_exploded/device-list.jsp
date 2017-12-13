@@ -24,9 +24,9 @@
 		<!-- 左侧内容 -->
 		<div class="col-md-3">
 			<div class="list-group">
-				<a href="${pageContext.request.contextPath}/device?method=queryDevice&contract_id=${param.contract_id}&c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}" class="list-group-item text-center active" >设备列表</a>
+				<a href="${pageContext.request.contextPath}/device?method=queryDevice&refresh=true" class="list-group-item text-center active" >设备列表</a>
 				<a href="${pageContext.request.contextPath}/contract?method=getContractList&currentPage=1&currentCount=10" class="list-group-item text-center " >返回合同列表</a>
-				<a href="${pageContext.request.contextPath}/device-add.jsp?method=addDevice&contract_id=${param.contract_id}&contract_id=${param.contract_id}&c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}"  class="list-group-item text-center " >新增设备</a>
+				<a href="${pageContext.request.contextPath}/device-add.jsp"  class="list-group-item text-center " >新增设备</a>
 			</div>
 
 		</div>
@@ -74,8 +74,8 @@
 
 								<tr>
 									<th><%= ++device_id %></th>
-									<th>${param.c_name}</th>
-									<th>${param.contract_id}</th>
+									<th>${contract.c_name}</th>
+									<th>${contract_id}</th>
 									<th>${device.d_did}</th>
 									<th>${device.d_type}</th>
 									<th>${device.d_campus}</th>
@@ -88,8 +88,12 @@
 									<td>
 
 										<%--<a href="">详情</a>--%>
-										<a href="${pageContext.request.contextPath}/device?method=deleteDevice&device_id=<%= device_id %>&contract_id=${param.contract_id}&d_id=${device.d_id}&d_cid=${device.d_cid}&d_did=${device.d_did}&d_type=${device.d_type}&d_campus=${device.d_campus}&d_apartment=${device.d_apartment}&d_people=${device.d_people}&d_date=${device.d_date}&d_used=${device.d_used}&d_undate=${device.d_undate}&d_remark=${device.d_remark}&c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">删除</a>
-										<a href="${pageContext.request.contextPath}/device-update.jsp?&device_id=<%= device_id %>&contract_id=${param.contract_id}&d_id=${device.d_id}&d_cid=${device.d_cid}&d_did=${device.d_did}&d_type=${device.d_type}&d_campus=${device.d_campus}&d_apartment=${device.d_apartment}&d_people=${device.d_people}&d_date=${device.d_date}&d_used=${device.d_used}&d_undate=${device.d_undate}&d_remark=${device.d_remark}&c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">修改</a>
+
+											<a href="${pageContext.request.contextPath}/device?method=deleteDevice&device_id=<%= device_id %>&d_id=${device.d_id}&d_cid=${device.d_cid}&d_did=${device.d_did}&d_type=${device.d_type}&d_campus=${device.d_campus}&d_apartment=${device.d_apartment}&d_people=${device.d_people}&d_date=${device.d_date}&d_used=${device.d_used}&d_undate=${device.d_undate}&d_remark=${device.d_remark}">删除</a>
+											<a href="${pageContext.request.contextPath}/device-update.jsp?device_id=<%= device_id %>&d_id=${device.d_id}&d_cid=${device.d_cid}&d_did=${device.d_did}&d_type=${device.d_type}&d_campus=${device.d_campus}&d_apartment=${device.d_apartment}&d_people=${device.d_people}&d_date=${device.d_date}&d_used=${device.d_used}&d_undate=${device.d_undate}&d_remark=${device.d_remark}">修改</a>
+
+										<%--<a href="${pageContext.request.contextPath}/device?method=deleteDevice&device_id=<%= device_id %>&contract_id=${param.contract_id}&d_id=${device.d_id}&d_cid=${device.d_cid}&d_did=${device.d_did}&d_type=${device.d_type}&d_campus=${device.d_campus}&d_apartment=${device.d_apartment}&d_people=${device.d_people}&d_date=${device.d_date}&d_used=${device.d_used}&d_undate=${device.d_undate}&d_remark=${device.d_remark}&c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">删除</a>--%>
+										<%--<a href="${pageContext.request.contextPath}/device-update.jsp?&device_id=<%= device_id %>&contract_id=${param.contract_id}&d_id=${device.d_id}&d_cid=${device.d_cid}&d_did=${device.d_did}&d_type=${device.d_type}&d_campus=${device.d_campus}&d_apartment=${device.d_apartment}&d_people=${device.d_people}&d_date=${device.d_date}&d_used=${device.d_used}&d_undate=${device.d_undate}&d_remark=${device.d_remark}&c_id=${contract.c_id}&c_name=${contract.c_name}&c_dtype=${contract.c_dtype}&c_type=${contract.c_type}&c_supplier=${contract.c_supplier}&c_price=${contract.c_price}&c_tprice=${contract.c_tprice}&c_count=${contract.c_count}&c_date=${contract.c_date}&c_campus=${contract.c_campus}&c_person=${contract.c_person}&c_upload=${contract.c_upload}&c_remark=${contract.c_remark}">修改</a>--%>
 									</td>
 
 								</tr>
