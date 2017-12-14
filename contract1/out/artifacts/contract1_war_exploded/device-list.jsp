@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>index</title>
+	<title>设备列表</title>
 	<link rel="stylesheet" href="static/css/bootstrap.min.css">   
 	<style type="text/css">
 		body{ font-family: 'Microsoft YaHei';}
@@ -25,7 +25,7 @@
 		<div class="col-md-3">
 			<div class="list-group">
 				<a href="${pageContext.request.contextPath}/device?method=queryDevice&refresh=true" class="list-group-item text-center active" >设备列表</a>
-				<a href="${pageContext.request.contextPath}/contract?method=getContractList&currentPage=1&currentCount=10" class="list-group-item text-center " >返回合同列表</a>
+				<a href="${pageContext.request.contextPath}/contract?method=getContractList&currentPage=${currentPage}&currentCount=${currentCount}" class="list-group-item text-center " >返回合同列表</a>
 				<a href="${pageContext.request.contextPath}/device-add.jsp"  class="list-group-item text-center " >新增设备</a>
 			</div>
 

@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <title>Document</title>
+    <title>合同管理系统登录</title>
     <script type="text/javascript" src="static/js/jquery-1.9.0.min.js"></script>
     <script type="text/javascript" src="static/js/login.js"></script>
     <link href="static/css/login2.css" rel="stylesheet" type="text/css"/>

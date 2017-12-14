@@ -9,7 +9,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>合同管理系统提示界面</title>
   </head>
   <body>
   ${message}
