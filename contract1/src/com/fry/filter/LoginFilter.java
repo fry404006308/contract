@@ -22,8 +22,10 @@ public class LoginFilter implements Filter {
         String servletPath = request.getServletPath();
 
 
+//        System.out.println("servletPath: "+servletPath);
+//        System.out.println("servletPath.contains(): "+(servletPath.contains("/login.jsp")||servletPath.contains("/static")||servletPath.contains("/doAction")||servletPath.contains("/user")));
         //2、如果是登陆界面，直接跳过
-        if(servletPath.equals("/login.jsp")||servletPath.equals("/user")){
+        if(servletPath.contains("/login.jsp")||servletPath.contains("/static")||servletPath.contains("/doAction")||servletPath.contains("/user")){
             chain.doFilter(req, resp);
             return;
         }

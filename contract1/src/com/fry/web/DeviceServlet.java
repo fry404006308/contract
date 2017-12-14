@@ -145,7 +145,7 @@ public class DeviceServlet extends BaseServlet {
             //从数据库中查询合同对应的设备
             DeviceService deviceService=new DeviceService();
             Contract contract=(Contract)request.getSession().getAttribute("contract");
-            System.out.println("contract.getC_id(): "+contract.getC_id());
+            //System.out.println("contract.getC_id(): "+contract.getC_id());
             List<Device> devices=deviceService.queryDevice(contract.getC_id());
             if (devices!=null) {
                 //2、设置设备参数
