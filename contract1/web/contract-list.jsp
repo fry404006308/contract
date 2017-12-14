@@ -68,7 +68,8 @@
 							</thead>
 							<tbody>
 							<%
-								int contract_id= 0;             //声明在<% >内的变量
+								Integer  contract_id = (Integer) request.getAttribute("recordNumber");             //声明在<% >内的变量
+
 							%>
 							<c:forEach items="${page.list}" var="contract">
 
@@ -123,13 +124,45 @@
 				<%--</nav>--%>
 
 				<!--分页 -->
+
+				<%!
+//					//前进
+//					public int forward(){
+//						//获得当前所在的页
+//						Integer currentPage =  (Integer)request.getSession().getAttribute("currentPage");
+//						if(currentPage==null) currentPage=1;
+//						if(currentPage<=1){
+//							currentPage=1;
+//						}else{
+//							currentPage--;
+//						}
+//						return currentPage;
+//					}
+//
+//					//后退
+//					public int backward(){
+//					//获得当前所在的页
+//					Integer currentPage =  (Integer)request.getSession().getAttribute("currentPage");
+//					//获取最后一页
+//					Integer lastPage =  (Integer)request.getSession().getAttribute("lastPage");
+//					if(currentPage==null) currentPage=1;
+//					if(lastPage==null) lastPage=1;
+//					if(currentPage>=lastPage){
+//						currentPage=lastPage;
+//					}else{
+//						currentPage++;
+//					}
+//						return currentPage;
+//					}
+//
+				%>
 				<nav>
 					<ul class="pagination pull-right">
-						<li  class="previous"><a href="#">&laquo;</a></li>
+						<li  class="previous"><a href="${pageContext.request.contextPath}/contract?method=getContractList&currentPage=1&currentCount=10">&laquo;</a></li>
 						<c:forEach begin="1" end="${page.totalPage}" var="Page">
 							<li><a href="${pageContext.request.contextPath}/contract?method=getContractList&currentPage=${Page}&currentCount=10">${Page}</a></li>
 						</c:forEach>
-						<li><a href="#">&raquo;</a></li>
+						<li><a href="${pageContext.request.contextPath}/contract?method=getContractList&currentPage=${lastPage}&currentCount=10">&raquo;</a></li>
 					</ul>
 
 				</nav>

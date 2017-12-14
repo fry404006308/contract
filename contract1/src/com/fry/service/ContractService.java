@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 /**
- * Created by Administrator on 2017/7/8.
+ * 获取最后一页的操作应该写在这
  */
 public class ContractService {
     /**
@@ -22,6 +22,14 @@ public class ContractService {
     {
         dao = new ContractDao();
     }
+
+    public int getLastPage(int currentCount) throws SQLException{
+        // 1 查询出数据的总数
+        int totalCount = dao.queryCount();
+        int lastPage = (int) Math.ceil(1.0*totalCount/currentCount);
+        return lastPage;
+    }
+
     public boolean addContract(Contract contract) throws SQLException {
         boolean addContract = dao.addContract(contract);
         return addContract;
@@ -37,11 +45,20 @@ public class ContractService {
         List<Contract> contract = dao.queryContractList();
         return contract;
     }
+
+    /**
+     * 查询出记录的总条数
+     * @return
+     * @throws SQLException
+     */
+    public int findTotalCount() throws SQLException {
+        // 1 查询出数据的总数
+        int totalCount = dao.queryCount();
+        return totalCount;
+    }
+
     /**
      * @method:findPageCategory 分页查询数据
-     * @date: 2017/7/9
-     * @params:[currentPage, currentCount]
-     * @return: java.util.List<net.zixue.bean.Category>
      */
     public Page findPageContract(int currentPage, int currentCount) throws SQLException {
 

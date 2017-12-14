@@ -117,7 +117,10 @@ public class UploadContractServlet extends HttpServlet {
             e.printStackTrace();
 
         }
-        response.sendRedirect(request.getContextPath()+"/contract?method=getContractList&currentPage=1&currentCount=10");
+        //获得当前所在的页
+        Integer currentPage =  (Integer)request.getSession().getAttribute("currentPage");
+        Integer currentCount = (Integer)request.getSession().getAttribute("currentCount");
+        response.sendRedirect(request.getContextPath()+"/contract?method=getContractList&currentPage="+currentPage+"&currentCount="+currentCount);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

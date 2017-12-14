@@ -138,7 +138,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">数量</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_count" value="${param.c_count}" class="form-control" placeholder="数量">
+                                    <input type="number" name="c_count" value="${param.c_count}" class="form-control" placeholder="数量">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">产品的数量</p>
@@ -147,7 +147,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">购买日期</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_date" value="${param.c_date}" class="form-control" placeholder="购买日期">
+                                    <input type="date" name="c_date" value="${param.c_date}" class="form-control" placeholder="购买日期">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">合同的购买日期（签订日期）</p>

@@ -101,7 +101,15 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">校区</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="d_campus" class="form-control" placeholder="校区">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="d_campus"  value="其它">其它
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="d_campus" value="中北">中北
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="d_campus" value="闵行">闵行
+                                    </label>
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">设备所在的校区</p>
@@ -128,7 +136,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">使用日期</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="d_date" class="form-control" placeholder="使用日期">
+                                    <input type="date" name="d_date" class="form-control" placeholder="使用日期">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">设备使用日期</p>
@@ -146,7 +154,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">设备报废日期</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="d_undate" class="form-control" placeholder="设备报废日期">
+                                    <input type="date" name="d_undate" class="form-control" placeholder="设备报废日期">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">设备报废的日期</p>

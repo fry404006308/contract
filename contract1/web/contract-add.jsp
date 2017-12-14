@@ -126,7 +126,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">数量</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_count" class="form-control" placeholder="数量">
+                                    <input type="number" name="c_count" class="form-control" placeholder="数量">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">合同中产品的数量</p>
@@ -135,7 +135,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">购买日期</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_date" class="form-control" placeholder="购买日期">
+                                    <input type="date" name="c_date" class="form-control" placeholder="购买日期">
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">产品的购买日期</p>
@@ -144,7 +144,15 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">校区</label>
                                 <div class="col-sm-5">
-                                    <input type="text" name="c_campus" class="form-control" placeholder="中北/闵行">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="c_campus"  value="其它">其它
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="c_campus" value="中北">中北
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="c_campus" value="闵行">闵行
+                                    </label>
                                 </div>
                                 <div class="col-sm-5">
                                     <p class="form-control-static text-danger">合同所在的校区</p>
