@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="contract_">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="contract_.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/out/artifacts/contract1_war_exploded" />
+    </root>
+  </artifact>
+</component>
